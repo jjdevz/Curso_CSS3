@@ -1,1 +1,1 @@
-body{display:flex;border-radius:50%}
+p{color:red}h1{color:blue}.title{color:green}.text{color:violet}#title{color:aqua}#text{color:blueviolet}[href]{color:green}[href="#"]{color:red}[class~=verde]{color:aqua}[class|=rojo]{color:violet}[class^=verde]{color:purple}[class$=rojo]{color:steelblue}[class*=rojo]{color:brown}h1+h2{color:red}h2+h2{color:blue}h1~h3{color:green}div span{color:purple}p>span{color:green}
