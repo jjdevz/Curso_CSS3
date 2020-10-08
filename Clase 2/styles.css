@@ -1,0 +1,43 @@
+/*
+p {
+    color: red;
+}
+
+a {
+    color: inherit;
+}
+*/
+
+
+/*VALORES DE IMPORTANCIA DE ESPECIFICIDAD
+    Etiqueta            1
+    Clases              10
+    Id                  100
+    Estílos en linea    1000    <Los que están dentro de la etiqueta en html>
+    !important          Sobre Todo <evitar utilización>
+
+    En caso de usar valores iguales prevalece la cascada
+
+    El orden en que se resuelven los conflictos de estilo:
+    important > especificidad > cascada
+*/
+
+#parrafo {
+    color: blueviolet;
+}
+
+.parrafo {
+    color: red;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    color: green !important;
+}
+
+.parrafo-2 {
+    color: black !important;
+}
