@@ -1,0 +1,36 @@
+    /*BOX MODEL*/
+    
+    h1 {
+        background: lightblue;
+        height: 100px;
+        width: 100px;
+    }
+    
+    h2 {
+        background: purple;
+    }
+    
+    a {
+        background: lime;
+        /*No modifica nada por ser un elemento de linea*/
+        height: 100px;
+        width: 100px;
+    }
+    
+    .box-1 {
+        width: 100px;
+        height: 100px;
+        background: lime;
+        padding: 10px;
+        /*Sus dimensiones cuentan para el tamaño total*/
+        border: 2px solid palevioletred;
+        margin: 20px;
+        /*Sus dimensiones NO cuentan para el tamaño total*/
+        outline: 5px solid blue;
+    }
+    
+    .box-2 {
+        width: 100px;
+        height: 100px;
+        background: lightcoral;
+    }

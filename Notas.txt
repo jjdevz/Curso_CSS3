@@ -1,0 +1,48 @@
+**CSS**
+
+- El @import requiere que obligatoriamente se cargue la hoja para poder seguir avanzando en la lectura del código.
+  Esto cuando está en el html dentro de la etiqueta <>style>
+  El @import va entre las etiquetas <style>
+
+
+Clases
+Hacemos referencia a clases con el punto .nombre_clase
+
+ID
+No se recomienda el uso de ID con CSS, solo se permite un nombre de ID en todo el documento html
+Se hace referencia con #nombre_id
+
+Selectores Universales
+Utilizados para resetear los estilos del navegador
+
+Selectores de atributos
+Van entre corchetes [atributo] ej [href]
+También se puede poner con el valor [href="#"]
+
+Selectores combinadores
+Podemos seleccionar los que están por debajo pero no los que están por arriba
+h1+h2 Selecciona el h2 por debajo de h1
+h1~h3 Selecciona a todos los h3 que estén por debajo de h1 pertenecientes al mismo padre
+
+Selectores descendentes
+p span
+div span
+Directo: p > span
+
+Metodología BEM (Bloque Elemeto Modificador)
+Los Bloques se escriben con una palabra o dos palabras separadas por guión: menu / main-menu
+Los Elementos se definen con el nombre del bloque al que pertenecen seguido de su nombre separados por dos guiones bajos: main-menu__item
+Los Modificadores se nombran con el nombre del bloque al que pertenecen y su modificador con dos guiones medios: main-menu__item--active
+
+BOX Model
+La forma en que se dibujan las cajas se denomina Layout
+En HTML hay dos tipos de elementos: En Linea (Inline) ocupan solo el espacio de su contenido; En Bloque (Block) ocupa todo el ancho disponible (viewport), se les puede asignar alto y ancho.
+Propiedades de cajas (cada una tiene sus distancias respectivas): Contenido > Padding > Border > Outline > Margin
+La diferencia entre el Border y Outline es que Border si hace que la caja ocupe más espacio pero Outline no. Outline se utiliza para ubicación de elementos.
+
+
+
+
+
+
+
