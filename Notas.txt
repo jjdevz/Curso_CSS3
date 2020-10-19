@@ -46,6 +46,11 @@ Ala signar un valor se asigna a todo el mismo, al asignar dos valores el primero
 Al asignar tres valores el primero es para top, segundo para left y right y cuarto para bottom.
 En resumen, menos valores asigna a el eje vertical (top-bottom) por encima del horizontal (left-right).
 
+BORDER
+Propiedades: width, style y color
+Si se quiere especificar los lados, se trata igual que margin y padding.
+border-with, border-style, border-color
+
 
 
 
