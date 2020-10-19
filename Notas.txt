@@ -40,6 +40,14 @@ En HTML hay dos tipos de elementos: En Linea (Inline) ocupan solo el espacio de 
 Propiedades de cajas (cada una tiene sus distancias respectivas): Contenido > Padding > Border > Outline > Margin
 La diferencia entre el Border y Outline es que Border si hace que la caja ocupe más espacio pero Outline no. Outline se utiliza para ubicación de elementos.
 
+MARGIN y PADDING
+Van en sentido de las agujas del reloj: top, right, bottom y left.
+Ala signar un valor se asigna a todo el mismo, al asignar dos valores el primero es para top y bottom y el otro left y right.
+Al asignar tres valores el primero es para top, segundo para left y right y cuarto para bottom.
+En resumen, menos valores asigna a el eje vertical (top-bottom) por encima del horizontal (left-right).
+
+
+
 
 
 
