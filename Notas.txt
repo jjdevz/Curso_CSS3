@@ -61,6 +61,17 @@ Valores: static (defecto), ralative, absolute, fixed y sticky.
 Mover un elemento mediante z-index permite traer adelante o atrás elementos que comparten una misma posición.
 Si ocultamos un elemento con "visibility: hidden" el espacio sigue ahí, caso contrario con "display: none"
 
+POSITION RELATIVE
+El elemento se coloca respecto a su posición en el flujo, su punto de referencia (top,right,bottom,left) no se modifica aunque movamos el elemento.
+Para poder usar top,right,bottom,left se debe declarar primero el position: relative.
+Estas propiedades pueden tomar valores negativos
+Top y Left tienen mayor valor que Right y Bottom no importa la cascada
+Si un elemento tiene su posición por defecto static, básicamente no está posicionado (sin z-index). Cualquier otro elemento relative se pondrá por encima de este.
+El mayor z-index tiene prioridad
+Aunque se mueva el elemento el espacio queda reservado
+
+
+
 
 
 
