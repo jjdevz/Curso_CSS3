@@ -51,6 +51,12 @@ Propiedades: width, style y color
 Si se quiere especificar los lados, se trata igual que margin y padding.
 border-with, border-style, border-color
 
+OUTLINE
+Tiene las mismas propiedades que border y adicional a estas el Offset
+Sigue el mismo orden top-right-bottom-left
+Offset permite valores negativos
+
+
 
 
 
