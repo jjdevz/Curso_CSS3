@@ -56,6 +56,10 @@ Tiene las mismas propiedades que border y adicional a estas el Offset
 Sigue el mismo orden top-right-bottom-left
 Offset permite valores negativos
 
+POSITION
+Valores: static (defecto), ralative, absolute, fixed y sticky.
+Mover un elemento mediante z-index permite traer adelante o atrás elementos que comparten una misma posición.
+Si ocultamos un elemento con "visibility: hidden" el espacio sigue ahí, caso contrario con "display: none"
 
 
 
