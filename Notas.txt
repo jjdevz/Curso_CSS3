@@ -80,7 +80,10 @@ POSITION RELATIVE
 Comparte las características de Absolute, sólo que se posiciona respecto al viewport.
 Aunque hagamos scroll el elemnto se mantiene fijado.
 
-
+POSITION STICKY
+Es una mezcla entre relative y fixed.
+Conserva su espacio en el flujo
+Cuando hacemos scroll el elemento se moverá hasta alcanzar el tope establecido
 
 
 
