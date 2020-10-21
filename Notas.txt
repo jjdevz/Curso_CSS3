@@ -76,6 +76,9 @@ El espacio no se reserva
 Si no especificamos dimensiones, se ajusta al contenido
 Su punto de referencia (top,right,bottom,left) del elemento que lo contiene no se modifica aunque lo movamos
 
+POSITION RELATIVE
+Comparte las características de Absolute, sólo que se posiciona respecto al viewport.
+Aunque hagamos scroll el elemnto se mantiene fijado.
 
 
 
