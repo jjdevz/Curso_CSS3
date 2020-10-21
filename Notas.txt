@@ -85,6 +85,14 @@ Es una mezcla entre relative y fixed.
 Conserva su espacio en el flujo
 Cuando hacemos scroll el elemento se moverá hasta alcanzar el tope establecido
 
+Z-INDEX
+Modifica las capas en el eje Z (Profundidad)
+Admite valores positivos y negativos (no se suele utilizar)
+No es recomendable usar números consecutivos, mejor 100, 200, 300...
+Si el padre tiene un z-index declarado, no podemos colocar un hijo por debajo de éste.
+Si queremos que el hijo se coloque por debajo del padre, debemos colocar un z-index negativo pero el padre no debe tener z-index declarado
+
+
 
 
 
