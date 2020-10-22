@@ -92,6 +92,16 @@ No es recomendable usar números consecutivos, mejor 100, 200, 300...
 Si el padre tiene un z-index declarado, no podemos colocar un hijo por debajo de éste.
 Si queremos que el hijo se coloque por debajo del padre, debemos colocar un z-index negativo pero el padre no debe tener z-index declarado
 
+DISPLAY
+inline: hacemos que un elemento de bloque se comporte como uno de linea
+block: la caja se comporta como si fuera un elemento de bloque 
+inline-block: se comporta como uno de línea pero acepta width y height
+none: oculta el elemento pero se sigue renderizando. No conserva su espacio
+table: imita el comportamiento de una tabla (desuso)
+list-item: imita el comportamiento de una lista (desuso)
+flex: maquetar componentes
+grid: maquetar layout
+Margin y Padding verticales a elementos en linea no los afecta. No empujan al elemento que tienen por debajo o por arriba
 
 
 
