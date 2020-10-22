@@ -103,10 +103,13 @@ flex: maquetar componentes
 grid: maquetar layout
 Margin y Padding verticales a elementos en linea no los afecta. No empujan al elemento que tienen por debajo o por arriba
 
-
-
-
-
+PSEUDO ELEMENTOS
+selector::pseudo-elemento{estilos}
+5 tipos: 	::first-line para elemtos de bloque, selecciona la primera línea
+		::first-letter para elemtos de bloque, selecciona la primera letra
+		::before Retirado de la especificación, se aplica cuando el usuario selecciona por ejemplo un texto en la pagina (para copiar etc)
+		::after / ::selection La propiedad content es obligatoria, Son elementos de línea por defecto, Son hijos del elemento al que pertenecen
+Los Pseudoelementos no pertenecen al DOM
 
 
 
