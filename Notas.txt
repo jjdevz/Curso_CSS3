@@ -111,5 +111,22 @@ selector::pseudo-elemento{estilos}
 		::after / ::selection La propiedad content es obligatoria, Son elementos de línea por defecto, Son hijos del elemento al que pertenecen
 Los Pseudoelementos no pertenecen al DOM
 
+PSEUDOCLASES
+Selectores que reaccionan en tiempo real (como un elemento de escucha en JS)
+Funcionan con todos los selectores de CSS, incluso solas
+selector:pseudoclase{}
+:pseudoclase{}
+Algunas pseudoclases:
+Para Links:
+:link se utiliza cuando el enlace no ha sido visitado
+:visited se utiliza cuando el enlace ya ha sido visitado
+:active se aplica en el momento que mantenemos pulsado el click
+Los border cogen el valor de la propiedad clor si está presente
+:hover
+:focus se puede aplicar por ejemplo a inputs de texto para cambiar color cuando estén activos
+:target se utiliza a elementos que tienen el target (por ejemplo un id y una referencia mediante enlace a este)
+:lang(lenguaje) lenguaje: en, es.. etc. Aplica estilos a etiquetas que tenga el atributo lang especificado
+
+
 
 
