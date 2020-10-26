@@ -127,6 +127,21 @@ Los border cogen el valor de la propiedad clor si está presente
 :target se utiliza a elementos que tienen el target (por ejemplo un id y una referencia mediante enlace a este)
 :lang(lenguaje) lenguaje: en, es.. etc. Aplica estilos a etiquetas que tenga el atributo lang especificado
 
-
+PseudoClases de Estructura
+:root hace lo mismo que html{} pero tiene mayor peso por especificidad. Se usa cuando utilizamos variables CSS
+:empty Selecciona etiquetas que no tienen contenido. Se puede usar cuando hay saltos de página no deseados
+all:unset; es una propiedad que resetea todas las propiedades (sin estilos)
+*Los siguientes reciben parámetros (odd, even, número o ecuación dependiente de n) n va valiendo desde 0 hasta la cantidad de selectores que haya:
+:nth-child(n) - Selecciona al hijo n (independientemente del tipo de etiqueta)
+:nth-last-child(n) A partir del último hijo cuenta n veces atrás y selecciona el elemento
+:only-child solo se aplica si la etiqueta es hijo único, si agregaramos otra no funciona
+*Las etiquetas type se usan cuando queremos seleccionar un elemento con un tipo de clase específica, no importa cuantos hijos con otras clases y selectores haya. Usa los mismos valores y funciona igual que los child:
+:first-of-type
+:last-of-type
+:nth-of-type()
+:nth-last-of-type()
+:only-of-type
+*Negation
+:not() - Selecciona al elemento que no cumpla la condición, se puede poner cualquier clase o selector salvo otro :not
 
 
