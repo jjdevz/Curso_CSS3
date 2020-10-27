@@ -144,4 +144,8 @@ all:unset; es una propiedad que resetea todas las propiedades (sin estilos)
 *Negation
 :not() - Selecciona al elemento que no cumpla la condición, se puede poner cualquier clase o selector salvo otro :not
 
-
+VARIABLES CSS
+selector{
+  --nombreVariable: valor;
+}
+uso-> propiedad: var(--nombreVariable)
