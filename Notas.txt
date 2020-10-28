@@ -222,6 +222,17 @@ FONT
 Se suele usar sans-serif por ser más facil de leer
 Siempre colocar una genérica entre las familias de fuentes para no tener problemas
 vmin se usa mucho en responsive
+TEXT
+    Text-transform: Transforma el texto a mayúsculas, minúsculas, etc.
+        lowercase (minusculas) | uppercase (mayusculas) | capitalize (primera letra de cada palabra en mayusculas)
+    text-align: Alinea el texto del elemento a la izquierda, derecha, etc. SOLO ELEMENTOS DE BLOQUE (excepto en botones, que aunque sean de elementos en línea funciona)
+        center | left | right | justify (no se suele usar en web por el espacio que dejan entre palabras para ocupar el espacio)
+    text-decoration: Establece la decoración del texto
+        overline | line-through | underline | none
+    text-indent: mueve la primera linea de un de texto. (Sangría) Acepta valores negativos SOLO ELEMENTOS DE BLOQUE
+OTHER
+    line-height: establece la altura de la linea. (Si tenemos una sola línea y colocamos la altura igual que su contenedor, se centraría verticalmente)
+    letter-spacing: establece la separacion de las letras con una medida en cualquier unidad
 
 
 
