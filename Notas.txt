@@ -234,5 +234,13 @@ OTHER
     line-height: establece la altura de la linea. (Si tenemos una sola línea y colocamos la altura igual que su contenedor, se centraría verticalmente)
     letter-spacing: establece la separacion de las letras con una medida en cualquier unidad
 
+GOOGLE FONTS & FONTFACE
+Sitios gratuitos para fuentes
+    https://www.dafont.com/es/
+    https://www.1001fonts.com/
+Analizar fuentes web
+    whatFont
+@fontface tiene 2 parámetros: src: url(''); y font-family: 'NombreFuente';
+
 
 
