@@ -242,5 +242,9 @@ Analizar fuentes web
     whatFont
 @fontface tiene 2 parámetros: src: url(''); y font-family: 'NombreFuente';
 
+TABLAS
+Para que se oculte una celda con empty-cells, no debe tener border-collapse: collapse
+Para que aparezca un scroll solo en la tabla cuando se hace muy ancha para el vieport, se puede encerrar en un div contenedor y aplicar al div la propiedad overflow-x: auto;
+
 
 
