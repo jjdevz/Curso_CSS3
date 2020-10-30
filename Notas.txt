@@ -246,5 +246,10 @@ TABLAS
 Para que se oculte una celda con empty-cells, no debe tener border-collapse: collapse
 Para que aparezca un scroll solo en la tabla cuando se hace muy ancha para el vieport, se puede encerrar en un div contenedor y aplicar al div la propiedad overflow-x: auto;
 
+IMAGENES
+Las imágenes son elementos line, por lo que tienen un line-height por defecto, para eliminar este pequeño espacio que deja lo podemos hacer de 2 maneras:
+	1. display: block;
+	2. line-height: 0;
+
 
 
