@@ -251,5 +251,7 @@ Las imágenes son elementos line, por lo que tienen un line-height por defecto, 
 	1. display: block;
 	2. line-height: 0;
 
-
+OBJECT-FIT
+Las propiedades más usadas son contain y cover
+filter: drop-shadow valores positivos para h y v-shadow serían a la derecha y abajo, y valores negativos izquierda y arriba
 
