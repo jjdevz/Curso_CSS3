@@ -255,3 +255,5 @@ OBJECT-FIT
 Las propiedades más usadas son contain y cover
 filter: drop-shadow valores positivos para h y v-shadow serían a la derecha y abajo, y valores negativos izquierda y arriba
 
+CLIP-PATH
+El polígono se va dibujando en orden de las coordenadas que coloquemos. (como si fuera un patron de desbloqueo de smartphone)
