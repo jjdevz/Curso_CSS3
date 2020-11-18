@@ -273,4 +273,12 @@ Es una propiedad de display
 display: flex para bloque y display: inline-flex para elementos de línea.
 Las cajas flexibles son los elementos que están dentro del contenedor, no el contenedor en sí.
 Si tenemos un elemento flex, con after y before le damos esa propiedad también a esos parientes.
-Por defecto eje principal horizontal (main-axis con main-start y main-end) y secundario vertical (cross-axis con cross-start y cross-end). Se puede cambiar
+Por defecto eje principal horizontal (main-axis con main-start y main-end) y secundario vertical (cross-axis con cross-start y cross-end). Se puede cambiar con flex-direction.
+flex-direction: row-reverse modifica la dirección del eje horizontal.
+flex-direction: column; le decimos que el eje principal va a ser el vertical. Es decir, intercambiamos main-axis a vertical y cross-axis a horizontal.
+flex-direction: column-reverse; modificamos la dirección del cross-axis
+Flex hace que todos los elementos entren en una línea, sino le especificamos lo contrario. Modifica el tamaño de los elementos para conseguirlo.
+Si queremos que los items salten de línea se usa flex-wrap: wrap; y los elementos ocupan el tamaño que queramos. flex-wrap: wrap-reverse; saltan hacia arriba.
+
+
+
