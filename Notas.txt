@@ -267,3 +267,10 @@ El valor inset hace que se comporten alrevez el h-offset y v-offset
 FLOAT
 Se necesita si un texto debe rodear una imagen
 Para incluir un elemento float en el padre, se le coloca overflow: hidden; al contenedor (padre).
+
+FLEXBOX
+Es una propiedad de display
+display: flex para bloque y display: inline-flex para elementos de línea.
+Las cajas flexibles son los elementos que están dentro del contenedor, no el contenedor en sí.
+Si tenemos un elemento flex, con after y before le damos esa propiedad también a esos parientes.
+Por defecto eje principal horizontal (main-axis con main-start y main-end) y secundario vertical (cross-axis con cross-start y cross-end). Se puede cambiar
