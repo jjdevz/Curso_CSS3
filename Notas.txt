@@ -264,3 +264,6 @@ No ocupa el espacio como el border
 Admite varias sombras separadas por coma
 El valor inset hace que se comporten alrevez el h-offset y v-offset
 
+FLOAT
+Se necesita si un texto debe rodear una imagen
+Para incluir un elemento float en el padre, se le coloca overflow: hidden; al contenedor (padre).
