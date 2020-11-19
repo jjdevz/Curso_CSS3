@@ -279,6 +279,10 @@ flex-direction: column; le decimos que el eje principal va a ser el vertical. Es
 flex-direction: column-reverse; modificamos la dirección del cross-axis
 Flex hace que todos los elementos entren en una línea, sino le especificamos lo contrario. Modifica el tamaño de los elementos para conseguirlo.
 Si queremos que los items salten de línea se usa flex-wrap: wrap; y los elementos ocupan el tamaño que queramos. flex-wrap: wrap-reverse; saltan hacia arriba.
-
+Alineación:
+justify-content para main-axis y align-item (1 línea) / aling-content (multiples líneas) para cross-axis
+El valor por defecto para justify es flex-start y para align es stretch
+Si queremos centrar un único item en el centro del contenedor flex (tanto horizontal como vertical), podemos usar margin: auto;
+La propiedad margin en un flex container se comporta distinto, si se coloca auto absorbe esa dirección (left para margin-left etc)
 
 
