@@ -284,5 +284,11 @@ justify-content para main-axis y align-item (1 línea) / aling-content (multiple
 El valor por defecto para justify es flex-start y para align es stretch
 Si queremos centrar un único item en el centro del contenedor flex (tanto horizontal como vertical), podemos usar margin: auto;
 La propiedad margin en un flex container se comporta distinto, si se coloca auto absorbe esa dirección (left para margin-left etc)
+Existe un shorthand para flex-direction y flex-wrap. flex-flow: flex-direction flex-wrap. flex-flow: column wrap;
+Propiedad Flex:
+Las propiedades van ligadas al main-axis.
+flex-basis tiene mayor prioridad que width
+flex es un shorthand flex: flex-grow(obligatiorio) flex-shrink(opcional) flex-basis(opcional);
+order coloca el valor más alto de último (en main-end)
 
 
