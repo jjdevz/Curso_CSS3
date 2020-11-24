@@ -296,4 +296,6 @@ Valor de la propiedad display
 grid-template-columns:
 grid-template-rows:
 grid-gap: (grid-column-gap y grid-row-gap)
+grid-column: start / end
+grid-row: start / end
 
