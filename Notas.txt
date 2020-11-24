@@ -291,4 +291,9 @@ flex-basis tiene mayor prioridad que width
 flex es un shorthand flex: flex-grow(obligatiorio) flex-shrink(opcional) flex-basis(opcional);
 order coloca el valor más alto de último (en main-end)
 
+GRID
+Valor de la propiedad display
+grid-template-columns:
+grid-template-rows:
+grid-gap: (grid-column-gap y grid-row-gap)
 
