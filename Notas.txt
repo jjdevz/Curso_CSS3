@@ -300,5 +300,10 @@ grid-column: start / end
 grid-row: start / end
 grid-template-columns: auto solo ocupa el espacio del elemento contenido
 			repeat(nColumnas o nFilas, medida)
+Implicit Grid:
+	grid-auto-columns:
+	grid-auto-rows:
+	grid-auto-flow: -> dense rellena los huecos que quedan con el elemento más cercano del DOM que quepa en ese hueco
+
 
 
