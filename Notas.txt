@@ -298,4 +298,7 @@ grid-template-rows:
 grid-gap: (grid-column-gap y grid-row-gap)
 grid-column: start / end
 grid-row: start / end
+grid-template-columns: auto solo ocupa el espacio del elemento contenido
+			repeat(nColumnas o nFilas, medida)
+
 
