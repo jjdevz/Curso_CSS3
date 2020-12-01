@@ -304,6 +304,8 @@ Implicit Grid:
 	grid-auto-columns:
 	grid-auto-rows:
 	grid-auto-flow: -> dense rellena los huecos que quedan con el elemento más cercano del DOM que quepa en ese hueco
+Auto-Fill rellena con nuevos elementos sin modificar tamaño de los actuales cuando hay espacio disponible, y cuando no salta de línea los elementos.
+Auto-Fit agranda los elementos cuando hay espacio disponible y también permite salto de línea cuando no hay espacio.
 
 
 
