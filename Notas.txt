@@ -307,5 +307,6 @@ Implicit Grid:
 Auto-Fill rellena con nuevos elementos sin modificar tamaño de los actuales cuando hay espacio disponible, y cuando no salta de línea los elementos.
 Auto-Fit agranda los elementos cuando hay espacio disponible y también permite salto de línea cuando no hay espacio.
 
+Las líneas y columnas de grid se nombran entre corchetes antes de especificar cada tamaño
 
 
