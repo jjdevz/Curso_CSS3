@@ -311,3 +311,7 @@ Las líneas y columnas de grid se nombran entre corchetes antes de especificar c
 
 --"Cuando colocamos posición absoluta el contenedor pierde sus dimensiones, hay que especificarlas con height y width"
 
+BREAKPOINTS (MEDIA QUERYS)
+Colocar los estilos por defecto primero y luego las media querys, esto para no tener inconvenientes con la cascada. Según la metodología usada (pej. mobile first)
+Los estílos que no escribamos en los breakpoints se heredan de los que ya están por defecto
+
